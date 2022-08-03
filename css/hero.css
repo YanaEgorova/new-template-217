@@ -71,9 +71,7 @@
 .policy .text {
     margin-bottom: 3rem;
 }
-.policy__img {
-    display: none;
-}
+
 
 
 
@@ -196,26 +194,18 @@
         position: relative;
         padding: 5rem 0;
     }
-    .policy__img {
-        display: block;
-        width: 60%;
-        position: absolute;
-        top: 0;
-        left: -2rem;
-        height: 100%;
-        object-fit: cover;
-    }
+
     .policy__box {
-        width: 40%;
-        margin-left: auto;
-        text-align: left;
-        position: relative;
+        padding: 0 30rem;
     }
     .policy__block {
         background-color: var(--sub-text-color);
         margin-left: -6rem;
         padding: 7rem 5rem 6rem 5rem;
         position: relative;
+    }
+    .policy__block--bottom {
+        margin: 0 0 0 auto;
     }
     .policy__block::after {
         background-color: var(--first-brand-color);
